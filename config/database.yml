@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: carewatch_production
-  username: carewatch
+  database: d3v6uqrh82av1c
+  username: ljolqpkhoefrxa
   password: <%= ENV['CAREWATCH_DATABASE_PASSWORD'] %>
+  host: ec2-54-235-99-12.compute-1.amazonaws.com
